@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package go.micro.server;
+option go_package = "go-micro.dev/v4/util/file/proto;go_micro_server";
 
 service File {
 	rpc Open(OpenRequest) returns(OpenResponse) {};

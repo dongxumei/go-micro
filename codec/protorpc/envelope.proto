@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package protorpc;
+option go_package = "go-micro.dev/v4/codec/protorpc";
 
 message Request {
 	string service_method = 1;
